@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-color: #FAF7F2;
+}
+
+/* Header Bar */
+
+.header {
+  height: 48px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: auto;
+  border-bottom: 1px solid #D6D6D6;
+  gap: 24px;
+  padding: 24px;
+}
+
+.hamburger {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  max-width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-icon {
+  background-image: url(Images/menu.svg);
+  height: 20px;
+  width: 20px;
+}
+
+.header-logo {
+  height: 36px;
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo {
+  background-image: url(Images/HRX-logo.svg);
+  height: 33px;
+  width: 71px;
+}
+
+.header-space {
+  height: 48px;
+  width: 100%;
+}
+
+.notification {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  flex: 0 0 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-bell {
+  background-image: url(Images/bell.svg);
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 11px;
+}
+
+.notification-badge {
+  background-color: #FF9800;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  position: relative;
+  bottom: 8px;
+}
+
+.notification-number {
+  font-size: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.profile-image {
+  background-color: #7096FF;
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+  max-width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.username {
+  color: #404040;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.role {
+  color: #717171;
+  font-size: 12px;
+}
+
+.down-arrow {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  max-width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down-arrow-icon {
+  background-image: url(Images/chevron-down.svg);
+  height: 20px;
+  width: 20px;
+}
+
+.body-space {
+  height: 100%;
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  color: #595959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.rights {
+  width: 100%;
+  display: flex;
+  align-items: left;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #595959;
+}
+
+.MIS {
+  color: #263B74;
+  font-weight: 600;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.HRX-footer-logo {
+  background-image: url(Images/hrx-footer-logo.svg);
+  height: 32px;
+  width: 50px;
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.powered-by {
+  white-space: nowrap;
+  font-size: 12px;
+  color: #BCC2D4;
+}
+
+.MYNDX-footer-logo {
+  background-image: url(Images/MyndX-footer-logo.svg);
+  height: 32px;
+  width: 74px;
+  min-width: 74px;
+  max-width: 74px;
+}
+
+.policy-terms {
+  width: 100%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
